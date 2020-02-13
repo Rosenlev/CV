@@ -7,7 +7,6 @@
 		<script src="https://kit.fontawesome.com/46363b20fd.js" crossorigin="anonymous"></script>
 		<title>CV de Lucie Grand </title>
 	</head>
-
 	<body>
 		<div class="l-CV">
 		
