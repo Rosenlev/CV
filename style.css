@@ -282,9 +282,34 @@ h3
 }
 
 /*Responsive*/
-@media screen and (max-width: 1140px)
+
+
+@media screen and (max-width: 1200px)
 {
 
+.header
+	{
+		position:relative;
+		margin-left: -50px;
+
+	}
+
+.yellow
+	{
+		width: 250px;
+	}
+
+.white
+	{
+		position:relative;
+		left: 260px;
+		flex-wrap:wrap;
+	}
+
+.loisirs
+{
+	width: 250px;
+}
 }
 
 @media screen and (max-width: 992px)
@@ -459,7 +484,7 @@ h3
 	.description
 	{
 		padding-left:40px;
-		flex-wrap: wrap
+		flex-wrap: wrap;
 		width:auto;
 
 	}
@@ -472,5 +497,5 @@ h3
 	.notions
 	{padding-left: 40px;}
 
-	
+
 }
