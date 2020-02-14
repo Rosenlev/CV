@@ -195,7 +195,7 @@ img
 	margin-left: 49px;
 	margin-right: 49px;
 	padding-top: 40px;
-	padding-bottom:200%;
+	padding-bottom:700px;
 	font-size:0.8em;
 
 	}
@@ -318,9 +318,14 @@ h3
 		position: relative;
 	}
 
-	.pabout:
+	.pabout
 	{
-		padding-bottom: 0px;
+		
+	margin-left: 49px;
+	margin-right: 49px;
+	padding-top: 40px;
+	padding-bottom:10px;
+	
 	}
 
 	.white
@@ -372,7 +377,12 @@ h3
 
 	.pabout:
 	{
-		padding-bottom: 0px;
+		
+	margin-left: 49px;
+	margin-right: 49px;
+	padding-top: 40px;
+	padding-bottom:40px;
+
 	}
 
 	.white
@@ -427,26 +437,31 @@ h3
 	{
 		width: auto;
 		position: relative;
-		margin-right: 0px;
 	}
 
 	.pabout:
 	{
-		padding-bottom: auto;
+		
+	margin-left: 49px;
+	margin-right: 49px;
+	padding-top: 40px;
+	padding-bottom:40px;
+	
 	}
 
 	.white
 	{
 		position:relative;
 		left: 0;
-		flex-direction:column;
-		flex-wrap:wrap;
+		width:auto;
 	}
 
 	.description
 	{
 		padding-left:40px;
+		flex-wrap: wrap
 		width:auto;
+
 	}
 
 	.loisirs
@@ -456,4 +471,6 @@ h3
 
 	.notions
 	{padding-left: 40px;}
+
+	
 }
