@@ -27,7 +27,7 @@
 
 /*Responsive*/
 
-/*Propriétés des polices du document*/
+/*Propriétés générales du document*/
 *
 {
 	font-family: open_sansregular;
@@ -49,8 +49,8 @@ body
 	margin: 0 auto;
 	max-width: 1140px;
 	position: relative;
-	z-index:1;
 }
+
 /*Propriétés générale des parties jaunes et blanches*/
 
 .yellow
@@ -66,7 +66,6 @@ body
 	top:0;
 	left:0;
 	bottom:0;
-	z-index:3;
 }
 
 .header
@@ -74,7 +73,6 @@ body
 	width: 805px;
 	position:relative;
 	left: 180px;
-	z-index: 2;
 }
 
 .white
@@ -90,29 +88,6 @@ body
 
 
 /*Header*/
-
-
-img 
-{
-  border-radius: 50%;
-  border-color: #daaf12;
-  border-style: solid;
-  width: 70%;
-  margin-right:49px;
-  margin-left:49px;
-  margin-bottom:40px;
-  margin-top: 60px;
-
-}
-
-
-.logo
-{
-	border-style: solid ;
-	border-color: #feca07;
-	
-}
-
 
 .Lucie
 {
@@ -178,12 +153,40 @@ h2,h3
 
 }
 
+/*Titres 'Formation','Expérience professionnelle','langues'*/
+
+.Titres_2
+{
+	margin-bottom:50px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #feca07;
+	padding-top: 40px;
+	color: black;
+	width: 100%;
+}
+
+
 /*Section à propos*/
+
+img 
+{
+  border-radius: 50%;
+  border-color: #daaf12;
+  border-style: solid;
+  width: 70%;
+  margin-right:49px;
+  margin-left:49px;
+  margin-bottom:40px;
+  margin-top: 60px;
+
+}
+
 
 .about
 {
 	background-color: #feca07;
-	margin-top: -12px;
+	margin-top: -25px;
 }
 
 .pabout
@@ -226,7 +229,7 @@ h2,h3
 }
 
 /*Section formation et expérience professionnelle*/
-
+/*Paragraphes*/
 ul
 {
 	list-style: none;
@@ -243,20 +246,8 @@ h3
 	font-weight: bold;
 	font-size:1.2em;
 }
-/*Titres 'Formation','Expérience professionnelle','langues'*/
 
-.Titres_2
-{
-	margin-bottom:50px;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	border-color: #feca07;
-	padding-top: 40px;
-	color: black;
-	width: 100%;
-}
-
-/*Dates 'Formation', 'Expérience professionnelle'*/
+/*Dates et Description 'Formation', 'Expérience professionnelle'*/
 
 .dates
 {
