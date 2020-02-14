@@ -447,10 +447,10 @@ h3
 	.header
 	{
 		width:auto;
-		text-align:center;
 		padding-top: 0px;
-		width: auto;
-		left:0px;
+		padding-left:15px;
+		position:relative;
+
 	}
 
 	hr
@@ -478,6 +478,11 @@ h3
 	{
 		position:relative;
 		left: 0;
+		width:auto;
+	}
+
+	.dates
+	{
 		width:auto;
 	}
 
