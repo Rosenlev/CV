@@ -74,7 +74,7 @@ body
 	position:relative;
 	left: 180px;
 	padding-top: 60px;
-	
+
 }
 
 .white
@@ -188,7 +188,6 @@ img
 .about
 {
 	background-color: #feca07;
-	margin-top: -25px;
 }
 
 .pabout
@@ -205,7 +204,6 @@ img
 .pcontact
 {
 	padding-top: 40px;
-	margin-bottom: 55px;
 	font-family: Arial;
 	font-size:0.9em;
 	word-wrap: break-word;
@@ -313,10 +311,6 @@ h3
 		display: none;
 	}
 
-	.Titres_2
-	{
-		width:auto;
-	}
 
 	.yellow
 	{
@@ -333,6 +327,8 @@ h3
 	{
 		position:relative;
 		left: 0;
+		width:auto;
+		flex-wrap:wrap;
 	}
 
 
@@ -368,11 +364,6 @@ h3
 		display: none;
 	}
 
-	.Titres_2
-	{
-		width:auto;
-	}
-
 	.yellow
 	{
 		width: auto;
@@ -388,8 +379,8 @@ h3
 	{
 		position:relative;
 		left: 0;
-		flex-direction:column;
-		flex-wrap:wrap;
+		width: auto;
+		flex-wrap: wrap;
 	}
 
 	.description
@@ -432,11 +423,6 @@ h3
 		display: none;
 	}
 
-	.Titres_2
-	{
-		width:auto;
-	}
-
 	.yellow
 	{
 		width: auto;
@@ -460,6 +446,7 @@ h3
 	.description
 	{
 		padding-left:40px;
+		width:auto;
 	}
 
 	.loisirs
@@ -469,7 +456,4 @@ h3
 
 	.notions
 	{padding-left: 40px;}
-
-
-
 }
